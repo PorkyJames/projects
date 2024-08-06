@@ -60,4 +60,11 @@ Once we got that all set upo and connected, I started working on my Models and S
 - I was thinking of what to use for my API calls, controllers in the backend, or thunks in the frontend using redux store. I decided to go with the Controllers in the backend as I have never done it in this fashion. Only via redux thunks for my other three projects.
 - I created a basic backend controller routes for the cart Controller. Nothing has been tested so far. Next, I plan to work on the redux store for the frontend and make a shopping cart component / a main page to display the products.
 - Look up the MVC method. Model, View, Controller. This is a method that allows users to get an input from the view, where it goes from View > Controller > Model > Controller > View
+- After making sure to export the cart controller to my routes, I created a variable called cart_controller to then be able to use and add the controllers to
+my routes. 
+
+I was able to start up my server but then found out that whenever I use the /cart on Postman, it wasn't producing anything and I get errors. 
+This is because i don't have any type of seeders or have done anything with the database. I know that my DB is connected properly because when I test for the / 
+home route, I am able to get the result of the app.use in my server.js <h1> eCommerce Practice </h1>. So now let's work on seeding my Database via Mongo / Express.
+
 

@@ -34,7 +34,7 @@ const updateItemsInCart = async (req, res) => {
         const cartItems = await ShoppingCartSchema.find()
         const itemId = req.params.id
         const { quantity } = req.body
-        const updatedItem = await ShoppingCartSchema.findByIdAndUpdate(itemId, { quantity }, { new: true})
+        const updatedItem = await ShoppingCartSchema.findByIdAndUpdate(itemId, { quantity }, { new: true })
         if (updatedItem) {
             res.status(200).json(updatedItem)
         }
@@ -54,4 +54,11 @@ const deleteItemsInCart = async (req, res) => {
     } catch (error) {
         res.status(500).json({ message: error.message })
     }
+}
+
+module.exports = {
+    getCartItems,
+    addItemsToCart,
+    updateItemsInCart,
+    deleteItemsInCart,
 }
