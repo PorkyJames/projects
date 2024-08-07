@@ -67,4 +67,13 @@ I was able to start up my server but then found out that whenever I use the /car
 This is because i don't have any type of seeders or have done anything with the database. I know that my DB is connected properly because when I test for the / 
 home route, I am able to get the result of the app.use in my server.js <h1> eCommerce Practice </h1>. So now let's work on seeding my Database via Mongo / Express.
 
+Seeders:
+- I started off by trying to figure out how I should approach the seeding. I learned about faker.js through MongoDB articles about how to seed in the DB. 
+- I created a seedProduct.js so that I could attempt to seed the randomized product data into the Mongo Database. 
+- After importing Faker.js library, I created a function to generate seeders and to seed the seeders into the Database by connecting to the mongodb database.
+- I had a validation error where the validation failed as the name: Path 'name' is required. After scouring the web for answers, i found out that my newly created products
+that I needed to push need to have a path / name of 'name' prior to the productName. 
 
+To run the seeder files you get on the backend directory and run in the terminal: 
+```node seeders/seedProduct.js```
+This should connect with MongoDB and show up in the Cluster. 
