@@ -77,3 +77,6 @@ that I needed to push need to have a path / name of 'name' prior to the productN
 To run the seeder files you get on the backend directory and run in the terminal: 
 ```node seeders/seedProduct.js```
 This should connect with MongoDB and show up in the Cluster. 
+
+Now that I got the seeds to populate the DB, it's time to work on the routes and test via Postman. 
+- First, I've created some basic routes 
