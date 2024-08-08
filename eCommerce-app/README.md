@@ -79,4 +79,13 @@ To run the seeder files you get on the backend directory and run in the terminal
 This should connect with MongoDB and show up in the Cluster. 
 
 Now that I got the seeds to populate the DB, it's time to work on the routes and test via Postman. 
-- First, I've created some basic routes 
+- First, I've created some basic routes to grab all of the products via the productController, product route, and server.js
+- I created the productController first where I found the items via the schema and then returned a json response with a status of 200
+- Then I created the route in the route directory and imported the fetchAllProducts function. Then I added it to my server.js in an app.use.
+- I tested everything via postman and it is now showing up properly when fetching all products. 
+
+Let's move on to the Frontend.
+- I will need to create a few basic components; Home page with all of the products, an item page that goes into more details about the page, and then
+lastly, the shopping cart itself. 
+- Here is what i'll need: a route that let's me find an item based on itemId, controller / routes for the shopping cart feature, frontend for displaying all products
+
