@@ -89,3 +89,8 @@ Let's move on to the Frontend.
 lastly, the shopping cart itself. 
 - Here is what i'll need: a route that let's me find an item based on itemId, controller / routes for the shopping cart feature, frontend for displaying all products
 
+Let's start off with creating basic components:
+
+Home Page (With all of the Products listed):
+- Start off by creating the directories in the Component folder and creating the templated page. 
+- Test the page out by traversing to it via the link on a live server. 
