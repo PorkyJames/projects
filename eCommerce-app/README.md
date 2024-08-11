@@ -96,5 +96,5 @@ Home Page (With all of the Products listed):
 - Test the page out by traversing to it via the link on a live server. 
 
 *** What I need to do Next:
-- I'm almost done with trying to connect the redux store to my frontend to display all products. But I need to create a rootReducer and configure my store
-prior to displaying all products on the HomePage. 
+- I'm almost done with trying to connect the redux store to my frontend to display all products. But I need to create a rootReducer and configure my store prior to displaying all products on the HomePage. 
+- There will need to be some adjustments as well when it comes to the routes page. Let's get that done eventually!
