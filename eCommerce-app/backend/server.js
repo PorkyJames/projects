@@ -1,6 +1,7 @@
 const express = require('express');
 const connectDB = require('../backend/config/db');
 const productRoutes = require('../backend/routes/product.js')
+const cors = require("cors")
 
 //! Initialize our express app
 const app = express();
@@ -9,6 +10,7 @@ const app = express();
 connectDB();
 
 app.use(express.json());
+app.use(cors());
 
 app.get('/', (req, res) => {
     console.log("Hello in the Console!")

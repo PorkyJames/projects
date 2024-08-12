@@ -3,7 +3,7 @@ import './App.css';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import store
+import store from '../src/redux/index'
 // import { Switch }
 
 import HomePage from './components/HomePage/HomePage';
