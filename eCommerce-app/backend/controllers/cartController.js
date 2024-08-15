@@ -8,7 +8,7 @@ const getCartItems = async (req, res) => {
             res.status(200).json(cartItems)
         }
     } catch (error) {
-        res.status(500).json({ message: error.message })
+        res.status(500).json({ message: "Error fetching cart items", error })
     }
 }
 
@@ -18,7 +18,7 @@ const addItemsToCart = async (req, res) => {
         //! The product that we add to our cart will become our request body. Then we'll make it a newly added product based off of the 
         //! Shopping Cart schema, then save that item into a variable called addedItem to add it into our cart. 
         const { productId, quantity } = req.body;
-        const newItem = new ShoppingCartSchema({ newlyAddedProduct: productId, quantity })
+        const newItem = await ShoppingCartSchema({ newlyAddedProduct: productId, quantity })
         const addedItem = await newItem.save();
         if (addedItem) {
             res.status(201).json(addedItem)

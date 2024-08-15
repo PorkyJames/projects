@@ -1,6 +1,7 @@
 const express = require('express');
 const connectDB = require('../backend/config/db');
 const productRoutes = require('../backend/routes/product.js')
+const cartRoutes = require('../backend/routes/carts.js')
 const cors = require("cors")
 
 //! Initialize our express app
@@ -21,6 +22,7 @@ app.get('/', (req, res) => {
 })
 
 app.use('/products', productRoutes);
+app.use('/cart', cartRoutes)
 
 const PORT = process.env.PORT;
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));

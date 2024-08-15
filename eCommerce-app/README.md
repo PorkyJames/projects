@@ -100,5 +100,4 @@ Home Page (With all of the Products listed):
 - There will need to be some adjustments as well when it comes to the routes page. Let's get that done eventually!
 
 
-Need another commit today!
-This is a sign for another ocmmit! I need to work on the project now!
+

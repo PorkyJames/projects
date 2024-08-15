@@ -17,9 +17,14 @@ const HomePage = () => {
         <>
             <h1> Home Page </h1>
             {products.map((product) => (
-                <li>
+                
+                <ul key={product._id}>
+                    <img src={product.imageUrl} alt='product-image'/>
                     <p>{product.name}</p>
-                </li>
+                    <p>{product.description}</p>
+                    <p>{product.price}</p>
+                </ul>
+            
             ))}
         </>
     )

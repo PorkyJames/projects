@@ -36,21 +36,15 @@ const initialState = {
 //! instance of state. 
 const cartReducer = (state = initialState, action) => {
     switch (action.type) {
-        case ADD_TO_CART:
+        case FETCH_CART_ITEM:
             return {
-                ...state,
-                cart: [...state, action.payload],
-                quantity: state.quantity + 1
-            }
-        case UPDATE_CART_ITEM:
-            return {
-                ...state,
                 
             }
+        case ADD_TO_CART:
+        
+        case UPDATE_CART_ITEM:
 
         case DELETE_CART_ITEM:
-
-        case FETCH_CART_ITEM:
 
         case default:
             return state
