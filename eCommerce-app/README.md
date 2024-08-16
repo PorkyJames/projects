@@ -98,8 +98,20 @@ Home Page (With all of the Products listed):
 - I styled it just a tad bit where I organized the product into individual cards and ordered them 4 in a row. 
 
 ***Additional Goals:
-- I need to create an item id route that allows me to go into the product detail itself.
-- The product detail page will have: the picture, a display, the amount to add to cart, 
+
+- Product Detail Page 
+This will allow users to look at the product and add it to their cart. 
+Maybe I can do something else where I have the buttons on the home page instead. But that means I'd need to do a Tiled Component. 
+
+- Image Carousel on intro-banner
+It would be cool to see an image carousel. It can be done without any packages / libraries, but not sure how to proceed. 
+
+- Search Bar feature
+I want the user to be able to look through the search bar to find a specific product that they want to look for. 
+- I won't need a library or package for that, I remember making a function that allows me to look through an array of products, and do some checks to see if it looks closely to the input that was put into the search bar. 
+
+- Pagination
+Every good eCommerce website has pagination in it. Being able to paginate allows for more room for other visual eye-catchers. 
 
 
 
