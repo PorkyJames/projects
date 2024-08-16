@@ -37,16 +37,14 @@ const initialState = {
 const cartReducer = (state = initialState, action) => {
     switch (action.type) {
         case FETCH_CART_ITEM:
-            return {
-                
-            }
-        case ADD_TO_CART:
+            return state
+        // case ADD_TO_CART:
         
-        case UPDATE_CART_ITEM:
+        // case UPDATE_CART_ITEM:
 
-        case DELETE_CART_ITEM:
+        // case DELETE_CART_ITEM:
 
-        case default:
+        default:
             return state
     }
 }

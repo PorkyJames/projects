@@ -94,10 +94,12 @@ Let's start off with creating basic components:
 Home Page (With all of the Products listed):
 - Start off by creating the directories in the Component folder and creating the templated page. 
 - Test the page out by traversing to it via the link on a live server. 
+- Got the products to start listing on the localhost. There were some hiccups along the way, but it ended up working out. 
+- I styled it just a tad bit where I organized the product into individual cards and ordered them 4 in a row. 
 
-*** What I need to do Next:
-- I'm almost done with trying to connect the redux store to my frontend to display all products. But I need to create a rootReducer and configure my store prior to displaying all products on the HomePage. 
-- There will need to be some adjustments as well when it comes to the routes page. Let's get that done eventually!
+***Additional Goals:
+- I need to create an item id route that allows me to go into the product detail itself.
+- The product detail page will have: the picture, a display, the amount to add to cart, 
 
 
 

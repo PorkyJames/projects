@@ -30,3 +30,5 @@ router.put('/cart', cart_controller.updateItemsInCart)
 // })
 
 router.delete('/cart', cart_controller.deleteItemsInCart)
+
+module.exports = router;
