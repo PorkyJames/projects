@@ -109,9 +109,14 @@ It would be cool to see an image carousel. It can be done without any packages /
 - Search Bar feature
 I want the user to be able to look through the search bar to find a specific product that they want to look for. 
 - I won't need a library or package for that, I remember making a function that allows me to look through an array of products, and do some checks to see if it looks closely to the input that was put into the search bar. 
+- This will require a product list page for all of the findings close to the keyword. 
 
 - Pagination
 Every good eCommerce website has pagination in it. Being able to paginate allows for more room for other visual eye-catchers. 
+
+- AI Generated Product Image
+I wanted the idea of trying to create an AI generated image based on the title for the faker.js seeds. This is because faker.js provides incredibly
+random images. That way, the images are somewhat close to the product titles provided in faker.js. I should also figure out a way to deseed my database. 
 
 
 

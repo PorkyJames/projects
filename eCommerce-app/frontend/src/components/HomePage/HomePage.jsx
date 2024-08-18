@@ -7,7 +7,7 @@ const HomePage = () => {
 
     const dispatch = useDispatch();
     const products = useSelector((state) => state.products);
-    // console.log(products, ">>>>>>This is products")
+    console.log(products, ">>>>>>This is products")
 
     useEffect(() => {
         dispatch(fetchProducts())
