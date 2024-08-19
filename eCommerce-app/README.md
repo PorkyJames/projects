@@ -118,5 +118,5 @@ Every good eCommerce website has pagination in it. Being able to paginate allows
 I wanted the idea of trying to create an AI generated image based on the title for the faker.js seeds. This is because faker.js provides incredibly
 random images. That way, the images are somewhat close to the product titles provided in faker.js. I should also figure out a way to deseed my database. 
 
-
+I need this commit for my Github lul
 
