@@ -119,4 +119,6 @@ I wanted the idea of trying to create an AI generated image based on the title f
 random images. That way, the images are somewhat close to the product titles provided in faker.js. I should also figure out a way to deseed my database. 
 
 I need this commit for my Github lul
+Needing another commit. Unfortunately, today was just way too hectic. But I still have some cool ideas I want to implement. 
+Remember what Austin said. Code. Every. Day.
 
