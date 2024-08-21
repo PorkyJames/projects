@@ -78,6 +78,10 @@ To run the seeder files you get on the backend directory and run in the terminal
 ```node seeders/seedProduct.js```
 This should connect with MongoDB and show up in the Cluster. 
 
+I've also created an unseedProduct.js file that will allow us to unseed our Database. 
+```node seeders/unseedProduct.js```
+as long as we're already in the backend directory. 
+
 Now that I got the seeds to populate the DB, it's time to work on the routes and test via Postman. 
 - First, I've created some basic routes to grab all of the products via the productController, product route, and server.js
 - I created the productController first where I found the items via the schema and then returned a json response with a status of 200
@@ -103,6 +107,9 @@ Home Page (With all of the Products listed):
 This will allow users to look at the product and add it to their cart. 
 Maybe I can do something else where I have the buttons on the home page instead. But that means I'd need to do a Tiled Component. 
 
+- Shopping Cart Page
+Need a page where all of the items listed in the shopping cart are shown. Need to work on the backend for that and then test via Postman. 
+
 - Image Carousel on intro-banner
 It would be cool to see an image carousel. It can be done without any packages / libraries, but not sure how to proceed. 
 
@@ -116,7 +123,7 @@ Every good eCommerce website has pagination in it. Being able to paginate allows
 
 - AI Generated Product Image
 I wanted the idea of trying to create an AI generated image based on the title for the faker.js seeds. This is because faker.js provides incredibly
-random images. That way, the images are somewhat close to the product titles provided in faker.js. I should also figure out a way to deseed my database. 
+random images. That way, the images are somewhat close to the product titles provided in faker.js.
 
 I need this commit for my Github lul
 Needing another commit. Unfortunately, today was just way too hectic. But I still have some cool ideas I want to implement. 
