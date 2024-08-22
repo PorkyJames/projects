@@ -121,11 +121,9 @@ I want the user to be able to look through the search bar to find a specific pro
 - Pagination
 Every good eCommerce website has pagination in it. Being able to paginate allows for more room for other visual eye-catchers. 
 
-- AI Generated Product Image
+- AI Generated Product Image (Completed)
 I wanted the idea of trying to create an AI generated image based on the title for the faker.js seeds. This is because faker.js provides incredibly
 random images. That way, the images are somewhat close to the product titles provided in faker.js.
 
-I need this commit for my Github lul
-Needing another commit. Unfortunately, today was just way too hectic. But I still have some cool ideas I want to implement. 
-Remember what Austin said. Code. Every. Day.
-
+- Basic CSS Styling for Home Page
+I just need it to look relatively pretty. Something that you'd be able to see straight out of a modern eCommerce page. 
