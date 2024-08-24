@@ -101,22 +101,29 @@ Home Page (With all of the Products listed):
 - Got the products to start listing on the localhost. There were some hiccups along the way, but it ended up working out. 
 - I styled it just a tad bit where I organized the product into individual cards and ordered them 4 in a row. 
 
+***New Libraries used:
+- OpenAI - AI Generated Product Image
+- Faker.js - Fake seeders 
+- Swiper.js - Image Carousel
+
 ***Additional Goals:
 
 - Product Detail Page 
-This will allow users to look at the product and add it to their cart. 
-Maybe I can do something else where I have the buttons on the home page instead. But that means I'd need to do a Tiled Component. 
+This will allow users to look at the product and add it to their cart. Separate component.
 
 - Shopping Cart Page
 Need a page where all of the items listed in the shopping cart are shown. Need to work on the backend for that and then test via Postman. 
+Separate component.
 
 - Image Carousel on intro-banner
 It would be cool to see an image carousel. It can be done without any packages / libraries, but not sure how to proceed. 
+Separate Component. Will utilize swiper.js library for this. 
 
 - Search Bar feature
 I want the user to be able to look through the search bar to find a specific product that they want to look for. 
 - I won't need a library or package for that, I remember making a function that allows me to look through an array of products, and do some checks to see if it looks closely to the input that was put into the search bar. 
 - This will require a product list page for all of the findings close to the keyword. 
+- Separate Component. 
 
 - Pagination
 Every good eCommerce website has pagination in it. Being able to paginate allows for more room for other visual eye-catchers. 
@@ -127,3 +134,6 @@ random images. That way, the images are somewhat close to the product titles pro
 
 - Basic CSS Styling for Home Page
 I just need it to look relatively pretty. Something that you'd be able to see straight out of a modern eCommerce page. 
+
+
+New COmmit!!!   
