@@ -136,4 +136,4 @@ random images. That way, the images are somewhat close to the product titles pro
 I just need it to look relatively pretty. Something that you'd be able to see straight out of a modern eCommerce page. 
 
 
-New COmmit!!!   
+I am going to commit a change to become better. 
