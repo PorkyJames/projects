@@ -55,7 +55,7 @@ const generateProducts = async (amount) => {
 const seedDatabase = async () => {
     try {
         await connectDB();
-        const generatedProducts = await generateProducts(10);
+        const generatedProducts = await generateProducts(8);
         const addedProducts = await Product.insertMany(generatedProducts);
         console.log(`${addedProducts.length} products have been inserted into the database.`);
     } catch (err) {
