@@ -3,6 +3,8 @@ import { useDispatch, useSelector } from "react-redux"
 import { fetchProducts } from '../../redux/productActions';
 import '../HomePage/HomePage.css'
 
+import ImageCarousel from '../ImageCarousel/ImageCarousel';
+
 const HomePage = () => {
 
     const dispatch = useDispatch();
@@ -16,13 +18,17 @@ const HomePage = () => {
     return (
         <>
 
-            <h1> eCommerce Website Prototype </h1>
+            {/* <h1> eCommerce Website Prototype </h1> */}
 
             <div className="intro-banner">
                 <div className="intro-banner-text">
                     <h2>Discover Our Latest Products</h2>
                     <button>See Featured Items!</button>
                 </div>
+            </div>
+
+            <div className="image-carousel">
+                <ImageCarousel />
             </div>
 
             <div className="all-product-list">

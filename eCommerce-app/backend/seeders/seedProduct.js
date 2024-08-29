@@ -15,8 +15,9 @@ async function generateProductImage(product) {
         const response = await openai.images.generate({
             prompt: `A product image for a store item named "${product.name}. Please give me a picture of a keyboard if the product name contains a BadRequestError based on safety system.`,
             n: 1,
-            size: "1024x1024"
+            size: "1024x680"
         });
+        //console.log(response)
 
         const imageUrl = response.data[0].url; 
 

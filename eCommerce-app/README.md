@@ -65,7 +65,9 @@ my routes.
 
 I was able to start up my server but then found out that whenever I use the /cart on Postman, it wasn't producing anything and I get errors. 
 This is because i don't have any type of seeders or have done anything with the database. I know that my DB is connected properly because when I test for the / 
-home route, I am able to get the result of the app.use in my server.js <h1> eCommerce Practice </h1>. So now let's work on seeding my Database via Mongo / Express.
+home route, I am able to get the result of the app.use in my server.js 
+
+<h1> eCommerce Practice </h1>. So now let's work on seeding my Database via Mongo / Express.
 
 Seeders:
 - I started off by trying to figure out how I should approach the seeding. I learned about faker.js through MongoDB articles about how to seed in the DB. 
@@ -106,34 +108,37 @@ Home Page (With all of the Products listed):
 - Faker.js - Fake seeders 
 - Swiper.js - Image Carousel
 
-***Additional Goals:
+
+<h2>Additional Goals:</h2>
 
 - Product Detail Page 
 This will allow users to look at the product and add it to their cart. Separate component.
 
 - Shopping Cart Page
-Need a page where all of the items listed in the shopping cart are shown. Need to work on the backend for that and then test via Postman. 
-Separate component.
-
-- Image Carousel on intro-banner
-It would be cool to see an image carousel. It can be done without any packages / libraries, but not sure how to proceed. 
-Separate Component. Will utilize swiper.js library for this. 
+Need a page where all of the items listed in the shopping cart are shown. Need to work on the backend for that and then test via Postman. Will need to be a Separate component.
 
 - Search Bar feature
-I want the user to be able to look through the search bar to find a specific product that they want to look for. 
-- I won't need a library or package for that, I remember making a function that allows me to look through an array of products, and do some checks to see if it looks closely to the input that was put into the search bar. 
-- This will require a product list page for all of the findings close to the keyword. 
-- Separate Component. 
+I want the user to be able to look through the search bar to find a specific product that they want to look for. I won't need a library or package for that, I remember making a function that allows me to look through an array of products, and do some checks to see if it looks closely to the input that was put into the search bar. This will require a product list page for all of the findings close to the keyword. 
+Will need to be a Separate Component. 
 
 - Pagination
 Every good eCommerce website has pagination in it. Being able to paginate allows for more room for other visual eye-catchers. 
-
-- AI Generated Product Image (Completed)
-I wanted the idea of trying to create an AI generated image based on the title for the faker.js seeds. This is because faker.js provides incredibly
-random images. That way, the images are somewhat close to the product titles provided in faker.js.
 
 - Basic CSS Styling for Home Page
 I just need it to look relatively pretty. Something that you'd be able to see straight out of a modern eCommerce page. 
 
 
-I am going to commit a change to become better. 
+<h2> Completed: </h2>
+
+- AI Generated Product Image (Completed)
+I wanted the idea of trying to create an AI generated image based on the title for the faker.js seeds. This is because faker.js provides incredibly
+random images. That way, the images are somewhat close to the product titles provided in faker.js. There are some issues with OpenAI 
+and the cost of generating those images. They generate fine, but the cost is somewhat difficult to work around. I keep getting certain billing errors
+from OpenAI, but that's relatively easy to fix as long as I can the $$$ to pay. Which I don't since I'm looking for a job. 
+
+- Image Carousel on intro-banner (Completed)
+It would be cool to see an image carousel. It can be done without any packages / libraries, but not sure how to proceed. 
+Separate Component. Will utilize swiper.js library for this. 
+- Added basic Image carousel with Swiper.js. One thing to consider is not utilizing too many different libraries in a project as that could take up
+a lot of space. Instead, think of utilizing one over-arching library such as Bootstrap which houses many different tools. 
+
