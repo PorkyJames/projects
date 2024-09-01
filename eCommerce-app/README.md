@@ -125,7 +125,7 @@ Will need to be a Separate Component.
 Every good eCommerce website has pagination in it. Being able to paginate allows for more room for other visual eye-catchers. 
 
 - Basic CSS Styling for Home Page
-I just need it to look relatively pretty. Something that you'd be able to see straight out of a modern eCommerce page. 
+I just need it to look relatively pretty. Something that you'd be able to see straight out of a modern eCommerce page. Basic styling needed. maybe bootstrap>?
 
 
 <h2> Completed: </h2>
